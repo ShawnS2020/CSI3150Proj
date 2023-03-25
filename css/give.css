@@ -1,0 +1,57 @@
+body {
+	color: rgb(100, 50, 50);
+}
+
+label {
+	display: block;
+}
+
+input {
+	height: 40px;
+	font-size: 1.25em;
+	width: 200px;
+}
+
+select {
+	font-size: 1em;
+	height: 40px;
+}
+
+.heading-wrapper {
+	text-align: center;
+	color: rgb(100, 50, 50);
+	margin: 50px 0;
+}
+
+.give-wrapper {
+	display: grid;
+	color: #FDFDEC;
+	color: #FEDC6B;
+	padding: 50px 0;
+	font-size: 1.5em;
+	background-color: rgb(100, 50, 50);
+	border-radius: 20px;
+	grid-template-columns: 300px 300px;
+	grid-template-rows: 200px 200px;
+	justify-items: center;
+	align-items: center;
+}
+
+.amount-wrapper {
+	display: inline-block;
+}
+
+.select-wrapper {
+	display: inline-block;
+}
+
+.memo-wrapper {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.memo-input {
+	width: 500px;
+	height: 50px;
+	font-size: 1em;
+}

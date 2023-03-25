@@ -1,0 +1,18 @@
+img {
+	width: 200px;
+	margin: 0 50px;
+}
+
+.staff-wrapper {
+	align-items: flex-start;
+	margin-top: 50px;
+	text-align: center;
+}
+
+.staff-wrapper h1 {
+	color: #272636;
+}
+
+.staff-wrapper h2 {
+	color: #535173;
+}
